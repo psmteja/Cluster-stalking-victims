@@ -1,0 +1,49 @@
+[
+  {
+    "model": "LogReg_L2",
+    "best_score": 0.22556715089673104,
+    "best_params": {
+      "logisticregression__C": 10.0
+    }
+  },
+  {
+    "model": "LogReg_L1",
+    "best_score": 0.2250428286984863,
+    "best_params": {
+      "logisticregression__C": 3.0
+    }
+  },
+  {
+    "model": "DecisionTree",
+    "best_score": 0.2790218048323311,
+    "best_params": {
+      "decisiontreeclassifier__max_depth": null,
+      "decisiontreeclassifier__min_samples_split": 10
+    }
+  },
+  {
+    "model": "GaussianNB",
+    "best_score": 0.2525552170867327,
+    "best_params": {
+      "gaussiannb__var_smoothing": 1e-07
+    }
+  },
+  {
+    "model": "BernoulliNB",
+    "best_score": 0.2996705293782863,
+    "best_params": {
+      "bernoullinb__alpha": 0.1
+    }
+  },
+  {
+    "model": "MLP",
+    "best_score": 0.30829402757917074,
+    "best_params": {
+      "mlpclassifier__alpha": 0.01,
+      "mlpclassifier__hidden_layer_sizes": [
+        50,
+        50
+      ]
+    }
+  }
+]

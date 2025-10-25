@@ -1,0 +1,7 @@
+model,best_score,best_params
+MLP,0.30829402757917074,"{'mlpclassifier__alpha': 0.01, 'mlpclassifier__hidden_layer_sizes': (50, 50)}"
+BernoulliNB,0.2996705293782863,{'bernoullinb__alpha': 0.1}
+DecisionTree,0.2790218048323311,"{'decisiontreeclassifier__max_depth': None, 'decisiontreeclassifier__min_samples_split': 10}"
+GaussianNB,0.2525552170867327,{'gaussiannb__var_smoothing': 1e-07}
+LogReg_L2,0.22556715089673104,{'logisticregression__C': 10.0}
+LogReg_L1,0.2250428286984863,{'logisticregression__C': 3.0}
