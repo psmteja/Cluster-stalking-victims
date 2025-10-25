@@ -182,4 +182,13 @@ for df in [p16, p19]:
 
 ---
 
-**Next action:** Share the list of the 18 predictors for Step 2 and your choices for the four items in *What I need from you*. After that, I’ll instantiate the code skeleton and first pass of data cleaning.
+Option 1 model suite done. Top models:
+          model  best_score                                        best_params
+5           MLP    0.308294  {'mlpclassifier__alpha': 0.01, 'mlpclassifier_...
+4   BernoulliNB    0.299671                        {'bernoullinb__alpha': 0.1}
+2  DecisionTree    0.279022  {'decisiontreeclassifier__max_depth': None, 'd...
+3    GaussianNB    0.252555               {'gaussiannb__var_smoothing': 1e-07}
+0     LogReg_L2    0.225567                    {'logisticregression__C': 10.0}
+Outcome model for B_ProfHSB completed.
+Outcome model for B_InformHSB completed.
+All done. See outputs/ and outputs/figs/.
